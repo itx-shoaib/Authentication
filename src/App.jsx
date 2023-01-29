@@ -1,16 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Signin from './Pages/Signin';
 
 function App() {
   return (
-    <>
-      <h1>
-        hello
-      </h1>
-    </>
-    //   <Routes>
-    //   <Route path='/' element={<Signin />} />
-    // </Routes>
+    <Routes>
+      <Route path='/' element={<Signin />} />
+    </Routes>
   );
 }
 
