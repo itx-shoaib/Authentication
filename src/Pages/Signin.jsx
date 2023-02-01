@@ -28,7 +28,7 @@ function Signin() {
                                                     span: 16,
                                                 }}
                                                 style={{
-                                                    maxWidth: 600,
+                                                    maxWidth: 700,
                                                 }}
                                                 initialValues={{
                                                     remember: true,
@@ -65,7 +65,7 @@ function Signin() {
 
                                                 <Form.Item
                                                     name="remember"
-                                                    valuePropName="checked"
+                                                    // valuePropName="checked"
                                                     wrapperCol={{
                                                         offset: 8,
                                                         span: 16,
